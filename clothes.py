@@ -41,8 +41,6 @@ text.pack()
 
 b=Button(f1)
 
-
-
 def destroy():
 	f1.destroy(), f2.pack(), root.config(background="blue")
 
@@ -199,7 +197,6 @@ label3.config(width=400, height=400)
 label3.pack()
 text3.config(width=30, height=3, state="disabled")
 
-
 b5=Button(f3)
 b5.pack()
 b5.config(text="Next Product", command=good2)
@@ -293,9 +290,6 @@ image23=PhotoImage(data=next1)
 label3=Label(f5,image=image23)
 label3.config(width=700, height=700)
 label3.pack()
-
-
-
 
 label1=Label(f5)
 label1.pack()
