@@ -1,12 +1,8 @@
 from Tkinter import *
 import tkMessageBox
-from Tkinter import*
 import base64
 import urllib
-import sqlite3
 
-connection = sqlite3.connect("apparel.db")
-cursor = connection.cursor()
 
 root=Tk()
 
